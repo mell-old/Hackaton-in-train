@@ -1,13 +1,7 @@
 body
 {
-    background-image: url("/img/bee-2984342.jpg");
     background-color: #000;
     color:  #ffffff;
-}
-hr
-{
-    color: #fff;
-    background-color: #fff;
 }
 .dropdown-toggle
 {
@@ -24,51 +18,50 @@ hr
 {
     min-height: 400px;
 }
-.blocks-promo
+h1.title
 {
-    min-height: 400px;
+    margin: 30px;
 }
-.promo-image{
+.bg{
     position: absolute;
-    z-index: 0;
-    top: -65px;
-    left: -45px;
-    width: 120%;
-    height: 500px;
-}
-.voice,.voice1
-{
-    position: relative;
-    z-index: 5;
-    top: 270px;
-    left: 40px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 @media (min-width: 500px) {
-    .voice
+    .blocks
     {
-
-        top: 420px;
-        right: 100px;
-    }
-    .voice1
-    {
-        top: 120px;
-        right: -390px;
-        text-shadow: orangered 0px 0px 10px;
-    }
-    .promo-image
-    {
-        width: 85em;
-        height: 42em;
-        position: absolute;
-        top: -65px;
-        left: 0;
+        position: relative;
         z-index: 0;
-        filter: blur(0px);
+        min-height: 42em;
     }
-    .blocks-promo
+    .text_content
     {
-        min-height: 36em;
+        position: relative;
+        top: 420px;
+        right: 60px;
+    }
+    .text_content_2
+    {
+        position: relative;
+        top: 120px;
+        right: -170px;
+        text-shadow: #ca6c08 10px 10px 15px, #ca6c08 -10px -10px 15px,#ca6c08 -10px 10px 15px,#ca6c08 10px -10px 15px;
+    }
+    .pad
+    {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        position: absolute;
+        left: 95px;
+        right: 95px;
+        background-color: #1b1e21bb;
+        border-radius: 300px;
+    }
+    .padd
+    {
+        margin-top: 300px;
     }
 }
 
@@ -80,22 +73,25 @@ p{
     font-size: 18px;
 }
 .content
-{
-    padding-top: 5px;
-}
+ {
+    padding-top: 15px;
+    color: #ca6c08;
+ }
 .image-hover
 {
-    filter: invert(1);
-    padding-top: 20px;
+    position: relative;
+    margin: 40px 0px 40px 0px;
 }
+a > span > img
+{
+    filter: invert(1);
+}
+
 .image-hover:hover
 {
     transform: scale3d(1.2,1.2,1.2);
 }
-hr
-{
-    margin-top: 35px;
-}
+
 /*==========Form style===*/
 .form
 {
