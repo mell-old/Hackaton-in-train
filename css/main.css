@@ -1,0 +1,149 @@
+body
+{
+    background-image: url("/img/bee-2984342.jpg");
+    background-color: #000;
+    color:  #ffffff;
+}
+hr
+{
+    color: #fff;
+    background-color: #fff;
+}
+.dropdown-toggle
+{
+    color: #000;
+    font-size: 17px;
+}
+.bg-lig
+{
+     background-color: #000000bb;
+    backdrop-filter: blur(10px);
+}
+/*=======Block style=======*/
+.blocks
+{
+    min-height: 400px;
+}
+.blocks-promo
+{
+    min-height: 400px;
+}
+.promo-image{
+    position: absolute;
+    z-index: 0;
+    top: -65px;
+    left: -45px;
+    width: 120%;
+    height: 500px;
+}
+.voice,.voice1
+{
+    position: relative;
+    z-index: 5;
+    top: 270px;
+    left: 40px;
+}
+@media (min-width: 500px) {
+    .voice
+    {
+
+        top: 420px;
+        right: 100px;
+    }
+    .voice1
+    {
+        top: 120px;
+        right: -390px;
+        text-shadow: orangered 0px 0px 10px;
+    }
+    .promo-image
+    {
+        width: 85em;
+        height: 42em;
+        position: absolute;
+        top: -65px;
+        left: 0;
+        z-index: 0;
+        filter: blur(0px);
+    }
+    .blocks-promo
+    {
+        min-height: 36em;
+    }
+}
+
+.blocks-min
+{
+    min-height: 200px;
+}
+p{
+    font-size: 18px;
+}
+.content
+{
+    padding-top: 5px;
+}
+.image-hover
+{
+    filter: invert(1);
+    padding-top: 20px;
+}
+.image-hover:hover
+{
+    transform: scale3d(1.2,1.2,1.2);
+}
+hr
+{
+    margin-top: 35px;
+}
+/*==========Form style===*/
+.form
+{
+    position: fixed;
+    display: none;
+}
+.form.active
+{
+    position: relative;
+    display: block;
+}
+
+/*======Menu style====*/
+#menu-toggle,#sidebar-wrapper,.list-group-item-action,.list-group-item
+{
+    color: #ffffff;
+}
+@media(min-width: 500px) {
+    .navbar-brand
+    {
+        position: absolute;
+        left: 15px;
+    }
+}
+/*=======Image style=====*/
+.image-style
+{
+    width: 60rem;
+    height: 400px;
+}
+.brand{
+    font-weight: bold;
+    color: #fff;
+    font-family: Cambria;
+}
+.interface
+{
+    margin-right: 4px;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*======Call Button======*/
+.call_button
+{
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+    background-color: #ca6c08aa;
+    z-index: 100;
+    border-radius: 300px;
+}

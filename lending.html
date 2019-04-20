@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="d-flex toggled" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-lig border-right" id="sidebar-wrapper">
+        <div class="sidebar-heading">Menu</div>
+        <div class="list-group list-group-flush">
+            <a href="#service" class="list-group-item list-group-item-action bg-lig">Services</a>
+            <a href="#industries" class="list-group-item list-group-item-action bg-lig">Industries</a>
+            <a href="#" class="list-group-item list-group-item-action bg-lig">Tests</a>
+            <a href="#" class="list-group-item list-group-item-action bg-lig">Other</a>
+        </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+        <nav class="navbar navbar-expand navbar-light bg-lig border-bottom">
+            <img id="menu-toggle" src="img/iconfinder_menu_2613915.svg" width="50" height="50" onclick="chg(this.id)">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item dropdown">
+                        <a href="#service" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #000">
+                            Services
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Mobile</a>
+                            <a class="dropdown-item" href="#">Web</a>
+                            <a class="dropdown-item" href="#">Bots</a>
+                            <a class="dropdown-item" href="#">Full</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#service" class="nav-link dropdown-toggle" href="#" id="navbarDrop" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #000;">
+                            Industries
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Aviation</a>
+                            <a class="dropdown-item" href="#">Medical</a>
+                            <a class="dropdown-item " href="#">Build</a>
+                            <a class="dropdown-item" href="#">Medical</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="row container-fluid blocks">
+            <div class="col text-center align-self-center promo" id="#promo">
+                <h1 style="color: #ca6c08;">Success Developer</h1>
+                <h2>innovative sotfware development company</h2>
+                <hr style="margin-left: 20px">
+                <h4>Desired technical partner with passion team for hot business projects</h4>
+                <hr style="margin-left: 20px">
+            </div>
+        </div>
+        <hr>
+        <div class="row container-fluid blocks">
+            <div class="col text-center align-self-center modile">
+                <h1 style="color: #ca6c08;">Mobile Developmentt</h1>
+                <img src="img/Mobile_Dashboard.png" alt="mod_dev" class="image-style"  >
+                <hr style="margin-left: 20px">
+                <h4>Our developer users HTML,CSS,AnjularJS,VimJS...etc</h4>
+                <hr style="margin-left: 20px">
+            </div>
+        </div>
+        <hr>
+        <div class="container-fluid blocks-min">
+            <div class="row">
+                <div class="col text-center align-self-center chooise" id="#chooise">
+                    <h1>You:</h1>
+                </div>
+            </div>
+            <div class="row">
+                <a href="#" class="col-6 block-chooise text-center image-hover align-self-center bussines">
+                    <img src="img/iconfinder_10_2739090.svg" alt="business" height="120" width="120">
+                    <h4 class="content">Bussines</h4>
+                </a>
+                <a href="#" class="col-6 block-chooise text-center image-hover align-self-center startap">
+                    <img src="img/iconfinder_network_3828002.svg" alt="startap" height="120" width="120">
+                    <h4 class="content">Startaper</h4>
+                </a>
+            </div>
+
+        </div>
+        <hr>
+        <form id="formBussines" action="#" method="post" class="form">
+            <div class="email">
+                <input type="email" class="email" id="emailBussines">
+                <label for="emailBussines">EmailBussines</label>
+            </div>
+        </form>
+        <hr>
+        <form id="formStartap" action="#" method="post" class="form">
+            <div class="email">
+                <input type="email" class="email" id="emailStartap">
+                <label for="emailStartap">EmailStartap</label>
+            </div>
+        </form>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+</div>
+<!-- /#wrapper -->
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Menu Toggle Script -->
+<script>
+    function chg(id){
+        var el = document.getElementById(id);
+        if (el.src.indexOf("img/iconfinder_menu_2613915.svg")>0){
+            el.src="img/iconfinder_v-11_3162629.svg"
+            el.style = "transform: scale3d(0.6,0.6,0.6);";
+        }else{
+            el.src="img/iconfinder_menu_2613915.svg"
+            el.style = "transform: scale3d(1,1,1);";
+        }
+    }
+    $("#menu-toggle").click(function (e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    $(".bussines").click(function (e) {
+        e.preventDefault();
+        $("#formStartap").removeClass("active");
+        $("#formBussines").toggleClass("active");
+    })
+    $(".startap").click(function (e) {
+        e.preventDefault();
+        $("#formBussines").removeClass("active");
+        $("#formStartap").toggleClass("active");
+    })
+</script>
+
+</body>
+
+</html>
