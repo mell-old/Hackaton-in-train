@@ -18,9 +18,14 @@ body
 {
     min-height: 400px;
 }
+h1.Title
+{
+    font-family: Cambria;
+    font-size: 70px;
+}
 h1.title
 {
-    margin: 30px;
+    margin: 20px;
 }
 .bg{
     position: absolute;
@@ -28,6 +33,27 @@ h1.title
     left: 0;
     bottom: 0;
     right: 0;
+}
+.carousel-item > img.tech
+{
+    filter: blur(1px);
+    margin-left: 20.5rem;
+    height: 25rem;
+    width: 40rem;
+    opacity: 0.6;
+}
+.carousel-item > img.ind
+{
+    width: 40em;
+    height: 20em;
+    opacity: 0.6;
+}
+.carousel-caption.tech
+{
+    margin-right: 10rem;
+    margin-left: 10rem;
+    background-color: #fff33333;
+    border-radius: 20px;
 }
 @media (min-width: 500px) {
     .blocks
@@ -39,29 +65,29 @@ h1.title
     .text_content
     {
         position: relative;
-        top: 420px;
+        top: 270px;
         right: 60px;
     }
     .text_content_2
     {
         position: relative;
-        top: 120px;
+        top: 70px;
         right: -170px;
         text-shadow: #ca6c08 10px 10px 15px, #ca6c08 -10px -10px 15px,#ca6c08 -10px 10px 15px,#ca6c08 10px -10px 15px;
     }
     .pad
     {
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 40px;
+        padding-bottom: 40px;
         position: absolute;
-        left: 95px;
-        right: 95px;
+        left: 100px;
+        right: 100px;
         background-color: #1b1e21bb;
         border-radius: 300px;
     }
     .padd
     {
-        margin-top: 300px;
+        margin-top: 280px;
     }
 }
 
@@ -74,6 +100,7 @@ p{
 }
 .content
  {
+    min-height: 60px;
     padding-top: 15px;
     color: #ca6c08;
  }

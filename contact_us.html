@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Success Soft</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="d-flex toggled" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-lig border-right" id="sidebar-wrapper">
+        <div class="sidebar-heading brand">Success Developer</div>
+        <div class="list-group list-group-flush">
+            <a href="#us" class="list-group-item list-group-item-action bg-lig">About us</a>
+            <a href="#team" class="list-group-item list-group-item-action bg-lig">Team</a>
+            <a href="index.html#service" class="list-group-item list-group-item-action bg-lig">Services</a>
+            <a href="#" class="list-group-item list-group-item-action bg-lig">Technologies</a>
+            <a href="index.html#industries" class="list-group-item list-group-item-action bg-lig">Industries</a>
+            <a href="#" class="list-group-item list-group-item-action bg-lig">Career</a>
+            <a href="#" class="list-group-item list-group-item-action bg-lig">Contacts</a>
+        </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+        <nav class="navbar navbar-expand navbar-light bg-lig border-bottom sticky-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <img id="menu-toggle" class="d-md-none" src="img/iconfinder_menu_2613915.svg" width="50"
+                 style="filter: invert(1)" height="50" onclick="chg(this.id)">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="navbar-brand" style="margin-left: 0">
+                        <h3 class="brand ml-4">Success<span style="visibility: hidden">_</span>Develop</h3>
+                    </li>
+                    <li class="nav-item d-none d-md-block">
+                        <a href="#us" class="nav-link interface" style="color: #fff">
+                            About us
+                        </a>
+                    </li>
+                    <li class="nav-item d-none d-md-block">
+                        <a href="#team" class="nav-link interface" style="color: #fff">
+                            Team
+                        </a>
+                    </li>
+                    <li class="nav-item d-none d-md-block">
+                        <a href="index.html#service" class="nav-link interface" style="color: #fff">
+                            Services
+                        </a>
+                    </li>
+                    <li class="nav-item d-none d-md-block">
+                        <a href="#tech" class="nav-link interface" style="color: #fff">
+                            Technologies
+                        </a>
+                    </li>
+                    <li class="nav-item d-none d-md-block">
+                        <a href="index.html#industries" class="nav-link interface" style="color: #fff">
+                            Industries
+                        </a>
+                    </li>
+                    <li class="nav-item d-none d-md-block">
+                        <a href="#" class="nav-link interface" style="color: #fff">
+                            Career
+                        </a>
+                    </li>
+                    <li class="nav-item d-none d-md-block">
+                        <a href="#" class="nav-link interface" style="color: #fff">
+                            Contacts
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+        <div class="container-fluid blocks-min">
+            <div class="row">
+                <a href="#bussines"
+                   class="col-6 col-lg-4 block-chooise text-center image-hover align-self-center bussines">
+                    <img src="img/iconfinder_10_2739090.svg" alt="business" height="120" width="120">
+                    <h4 class="content">Bussines</h4>
+                </a>
+                <div class="d-none d-lg-block col-lg-4"></div>
+                <a href="#startap"
+                   class="col-6 col-lg-4 block-chooise text-center image-hover align-self-center startap">
+                    <img src="img/iconfinder_network_3828002.svg" alt="startap" height="120" width="120">
+                    <h4 class="content">Startaper</h4>
+                </a>
+            </div>
+        </div>
+        <a name="startap"></a>
+        <div class="content_for_bussines">
+            <form data-toggle="validator" role="form" class="form-horizontal form" id="formBussines" action="#"
+                  method="post">
+                <span class="heading">Bussines</span>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="inputFirstName" name="FirstName"
+                           placeholder="First Name"
+                           required="required">
+                    <div class="fullName with-errors"></div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="inputLastName" name="LastName"
+                           placeholder="First Name"
+                           required="required">
+                    <div class="fullName with-errors"></div>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="zipCode" class="form-control" name="phone"
+                           onkeyup="javascript:mask('zipCode', '+38(000)000-00-00', event);"
+                           value="Work Phone +38(___)___-____" required="required">
+                    <div class="phone with-errors"></div>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Email"
+                           data-error="Вы не правильно ввели Ваш E-mail" required>
+                    <div class="email with-errors"></div>
+                </div>
+                <div class="form-group">
+                    <select name="position" required="required">
+                        <!--Supplement an id here instead of using 'name'-->
+                        <option value="">I am interested in</option>
+                        <option value="Mobile develop">Mobile App Development</option>
+                        <option value="Web develop">Web development</option>
+                        <option value="Bots develop(AI)">Bot development(AI)</option>
+                        <option value="IT consalting">IT consulting</option>
+                        <option value="UI/UX Design">UI/UX Design</option>
+                        <option value="Brand Packet">Brand Packing</option>
+                    </select>
+                    <div class="position with-errors"></div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="inputAdress" name="companyName"
+                           placeholder="Company"
+                           required="required">
+                    <div class="Company with-errors"></div>
+                </div>
+                <div class="form-group" style="margin-right: auto;margin-left: auto;">
+                <textarea name="description" id="message" class="form-control" rows="9" cols="25"
+                          style="min-height: 90px;" placeholder="Project description" required="required"></textarea>
+                    <div class="description with-errors"></div>
+                </div>
+                <div class="form-group" style="margin-right: auto;margin-left: auto;">
+                    <label for="file-input" class="control-label text-align-center">Attach file</label>
+                    <input id="file-input" type="file" name="uploadingFiles" multiple>
+                </div>
+                <div class="msg"></div>
+                <div class="form-group">
+                    <a id="submit" name="registration" class="talk_to_our_team" href="#">TALK TO OUR TEAM</a>
+                </div>
+                <p class="policy">By sending this form I confirm that I have read and accept Intellectsoft <a
+                        href="#">Privacy
+                    Policy</a></p>
+            </form>
+        </div>
+        <div class="content_for_startap">
+
+            <form data-toggle="validator" role="form" class="form-horizontal form" id="formStartap" action="#"
+                  method="post">
+
+                <span class="heading">Startaper</span>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="inputFirst" name="FirstName"
+                           placeholder="First Name"
+                           required="required">
+                    <div class="fullName with-errors"></div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="inputLast" name="LastName" placeholder="Last Name"
+                           required="required">
+                    <div class="fullName with-errors"></div>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="zipCod" class="form-control" name="phone"
+                           onkeyup="javascript:mask('zipCode', '+38(000)000-00-00', event);"
+                           value="Work Phone +38(___)___-____" required="required">
+                    <div class="phone with-errors"></div>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="inputEmai" name="email" placeholder="Email"
+                           data-error="Вы не правильно ввели Ваш E-mail" required>
+                    <div class="email with-errors"></div>
+                </div>
+                <div class="form-group">
+                    <select name="position" required="required">
+                        <!--Supplement an id here instead of using 'name'-->
+                        <option value="">I am interested in</option>
+                        <option value="Mobile develop">Mobile App Development</option>
+                        <option value="Web develop">Web development</option>
+                        <option value="Bots develop(AI)">Bot development(AI)</option>
+                        <option value="IT consalting">IT consulting</option>
+                        <option value="UI/UX Design">UI/UX Design</option>
+                        <option value="Brand Packet">Brand Packing</option>
+                    </select>
+                    <div class="position with-errors"></div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="inputAdres" name="companyName" placeholder="Company"
+                           required="required">
+                    <div class="Company with-errors"></div>
+                </div>
+                <div class="form-group" style="margin-right: auto;margin-left: auto;">
+                    <textarea name="description" id="description" class="form-control" rows="9" cols="25"
+                              style="min-height: 90px;" placeholder="Project description"
+                              required="required"></textarea>
+                    <div class="description with-errors"></div>
+                </div>
+                <div class="form-group" style="margin-right: auto;margin-left: auto;">
+                    <textarea name="solution" id="solution" class="form-control" rows="9" cols="25"
+                              style="min-height: 90px;" placeholder="Solution"
+                              required="required"></textarea>
+                    <div class="description with-errors"></div>
+                </div>
+                <div class="form-group" style="margin-right: auto;margin-left: auto;">
+                    <textarea name="model" id="model" class="form-control" rows="9" cols="25"
+                              style="min-height: 90px;" placeholder="Business model"
+                              required="required"></textarea>
+                    <div class="description with-errors"></div>
+                </div>
+                <div class="form-group" style="margin-right: auto;margin-left: auto;">
+                    <textarea name="Customer Segments" id="segments" class="form-control" rows="9" cols="25"
+                              style="min-height: 90px;" placeholder="Customer segments"
+                              required="required"></textarea>
+                    <div class="description with-errors"></div>
+                </div>
+                <div class="form-group" style="margin-right: auto;margin-left: auto;">
+                    <textarea name="Key metrics" id="key" class="form-control" rows="9" cols="25"
+                              style="min-height: 90px;" placeholder="Key metrics"
+                              required="required"></textarea>
+                    <div class="description with-errors"></div>
+                </div>
+                <div class="form-group" style="margin-right: auto;margin-left: auto;">
+                    <textarea name="channel" id="channel" class="form-control" rows="9" cols="25"
+                              style="min-height: 90px;" placeholder="Channel(path to customer)"
+                              required="required"></textarea>
+                    <div class="description with-errors"></div>
+                </div>
+                <div class="form-group" style="margin-right: auto;margin-left: auto;">
+                    <textarea name="structure" id="structure" class="form-control" rows="9" cols="25"
+                              style="min-height: 90px;" placeholder="Cost structure"
+                              required="required"></textarea>
+                    <div class="description with-errors"></div>
+                </div>
+                <div class="form-group" style="margin-right: auto;margin-left: auto;">
+                    <textarea name="revenue" id="revenue" class="form-control" rows="9" cols="25"
+                              style="min-height: 90px;" placeholder="Revenue Stream"
+                              required="required"></textarea>
+                    <div class="description with-errors"></div>
+                </div>
+                <div class="form-group" style="margin-right: auto;margin-left: auto;">
+                    <textarea name="team" id="team" class="form-control" rows="9" cols="25"
+                              style="min-height: 90px;" placeholder="Team description"
+                              required="required"></textarea>
+                    <div class="description with-errors"></div>
+                </div>
+
+                <div class="form-group" style="margin-right: auto;margin-left: auto;">
+                    <label for="file-input" class="control-label text-align-center">Attach file</label>
+                    <input id="file-inpu" type="file" name="uploadingFiles" multiple>
+                </div>
+                <div class="msg"></div>
+                <div class="form-group">
+                    <a id="submi" name="registration" class="talk_to_our_team" href="#">SEND NOW</a>
+                </div>
+                <p class="policy">By sending this form I confirm that I have read and accept Intellectsoft <a
+                        href="#">Privacy
+                    Policy</a></p>
+            </form>
+        </div>
+    </div>
+</div>
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Menu Toggle Script -->
+        <script>
+            function chg(id) {
+                var el = document.getElementById(id);
+                if (el.src.indexOf("img/iconfinder_menu_2613915.svg") > 0) {
+                    el.src = "img/iconfinder_v-11_3162629.svg"
+                    el.style = "transform: scale3d(0.6,0.6,0.6); filter: invert(1);";
+                } else {
+                    el.src = "img/iconfinder_menu_2613915.svg"
+                    el.style = "transform: scale3d(1,1,1);  filter: invert(1);";
+                }
+            }
+
+            $("#menu-toggle").click(function (e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("toggled");
+            });
+            $(".bussines").click(function (e) {
+                e.preventDefault();
+                $("#formStartap").removeClass("active");
+                $("#formBussines").toggleClass("active");
+            })
+            $(".startap").click(function (e) {
+                e.preventDefault();
+                $("#formBussines").removeClass("active");
+                $("#formStartap").toggleClass("active");
+            })
+        </script>
+
+</body>
+
+</html>
