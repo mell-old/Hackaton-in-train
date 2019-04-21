@@ -232,13 +232,6 @@ img.image-hover:hover{
 .img-text
 {
 
-    font-weight: bold;
-    border-radius: 25px;
-    background-color: #000000cc;
-    width: 500px;
-    position: absolute;
-    top: 385px;
-    left: 125px;
 }
 a.hov:hover
 {

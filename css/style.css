@@ -24,10 +24,11 @@ body
 }
 a.talk_to_our_team
 {
+    font-size: 28px;
     padding: 8px 20px 8px 20px;
     color: #fff;
     background-color: #ca6c08;
-    border-radius: 30px;
+    border-radius: 50px;
 }
 @media (min-width: 500px) {
     .form-horizontal
