@@ -1,6 +1,7 @@
 body
 {
-    background-color: #000;
+    font-family: Cambria;
+    background-color: #111111;
     color:  #ffffff;
 }
 .dropdown-toggle
@@ -20,12 +21,16 @@ body
 }
 h1.Title
 {
-    font-family: Cambria;
     font-size: 70px;
+}
+h2.Title
+{
+    font-size: 48px;
 }
 h1.title
 {
-    margin: 20px;
+    margin: 40px;
+    font-weight: bold;
 }
 .bg{
     position: absolute;
@@ -36,7 +41,6 @@ h1.title
 }
 .carousel-item > img.tech
 {
-    filter: blur(1px);
     margin-left: 20.5rem;
     height: 25rem;
     width: 50rem;
@@ -45,18 +49,21 @@ h1.title
 .carousel-item > img.ind
 {
     margin-top: 5em;
-    width: 40em;
+    width: 45em;
     height: 20em;
-    opacity: 0.6;
+    opacity: 1;
 }
 ul.ind > li{
+    background-color: #111111;
+    width: 220px;
     font-size: 24px;
 }
 .carousel-caption.tech
 {
+    font-family: "Century Gothic";
     margin-right: 10rem;
     margin-left: 10rem;
-    background-color: #fff33333;
+    background-color: #000000cc;
     border-radius: 20px;
 }
 @media (min-width: 500px) {
@@ -64,15 +71,16 @@ ul.ind > li{
     {
         position: relative;
         z-index: 0;
-        min-height: 42em;
+        min-height: 45em;
     }
     .pad
     {
-        padding-top: 45px;
-        padding-bottom: 45px;
+        padding-top: 50px;
+        padding-bottom: 50px;
         position: absolute;
-        left: 115px;
-        right: 115px;
+        top: -35px;
+        left: 120px;
+        right: 120px;
         background-color: #1b1e21bb;
         border-radius: 300px;
     }
@@ -91,11 +99,14 @@ p{
 }
 .content
  {
+    position: relative;
+    width: 180px;
+    left: 45px;
     min-height: 60px;
     padding-top: 15px;
     color: #ca6c08;
  }
-.image-hover
+a.image-hover
 {
     position: relative;
     margin: 40px 0px 40px 0px;
@@ -105,7 +116,7 @@ a > span > img
     filter: invert(0);
 }
 
-.image-hover:hover
+a.image-hover:hover
 {
     transform: scale3d(1.2,1.2,1.2);
 }
@@ -150,6 +161,37 @@ a > span > img
     margin-right: 4px;
     font-size: 18px;
     font-weight: bold;
+}
+/*========Chooise===*/
+img.image-hover
+{
+    border-radius: 25px;
+    margin-top: 50px;
+}
+img.image-hover:hover{
+    transform: scale(1.2);
+}
+.ser
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #ca6c08;
+    margin-left: 150px;
+}
+.img-text
+{
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: #000000cc;
+    width: 500px;
+    position: absolute;
+    top: 420px;
+    left: 125px;
+}
+a:hover
+{
+    text-decoration: none;
 }
 /*======Call Button======*/
 .call_button

@@ -31,7 +31,7 @@
             <a href="#us" class="list-group-item list-group-item-action bg-lig">About us</a>
             <a href="#team" class="list-group-item list-group-item-action bg-lig">Team</a>
             <a href="index.html#service" class="list-group-item list-group-item-action bg-lig">Services</a>
-            <a href="#" class="list-group-item list-group-item-action bg-lig">Technologies</a>
+            <a href="#index.html#tech" class="list-group-item list-group-item-action bg-lig">Technologies</a>
             <a href="index.html#industries" class="list-group-item list-group-item-action bg-lig">Industries</a>
             <a href="#" class="list-group-item list-group-item-action bg-lig">Career</a>
             <a href="#" class="list-group-item list-group-item-action bg-lig">Contacts</a>
@@ -52,7 +52,9 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                     <li class="navbar-brand" style="margin-left: 0">
-                        <h3 class="brand ml-4">Success<span style="visibility: hidden">_</span>Develop</h3>
+                        <a href="index.html">
+                            <h3 class="brand ml-4">Success<span style="visibility: hidden">_</span>Develop</h3>
+                        </a>
                     </li>
                     <li class="nav-item d-none d-md-block">
                         <a href="#us" class="nav-link interface" style="color: #fff">
@@ -94,37 +96,31 @@
 
         </nav>
         <div class="container-fluid blocks-min">
+            <h1 class="Title text-center mt-4" style="color: #ca6c08;">Are you?</h1>
             <div class="row">
                 <a href="#bussines"
-                   class="col-6 col-lg-4 block-chooise text-center image-hover align-self-center bussines">
-                    <img src="img/iconfinder_10_2739090.svg" alt="business" height="120" width="120">
-                    <h4 class="content">Bussines</h4>
+                   class="col-6 block-chooise text-center chooise l align-self-center bussines">
+                    <h2 class="Title mt-4" style="color: #ca6c08;">Business</h2>
+                    <img src="img/5c742f0341902.image.png" class="image-hover" alt="business" height="400" width="500">
+                    <p class="content img-text" style="margin-top: 51px;">Do you need innovative professional Software? Do you want enjoy team our experts? We will happy to help you!</p>
                 </a>
-                <div class="d-none d-lg-block col-lg-4"></div>
                 <a href="#startap"
-                   class="col-6 col-lg-4 block-chooise text-center image-hover align-self-center startap">
-                    <img src="img/iconfinder_network_3828002.svg" alt="startap" height="120" width="120">
-                    <h4 class="content">Startaper</h4>
+                   class="col-6 block-chooise text-center chooise r align-self-center startap">
+                    <h2 class="Title mt-4" style="color: #ca6c08;">Start-up</h2>
+                    <img src="img/web1_best-places-to-start-a-business-ok-100.png" class="image-hover" alt="startap"
+                         height="400" width="500">
+                    <p class="content img-text">Do you have unique Startup? Do you want got professional innovative Software completely FREE? We
+                        are happy to help you! Hope you are glad to accept our conditions of cooperation “Time for Thank
+                        you”*.</p>
                 </a>
+
             </div>
         </div>
-        <a name="startap"></a>
+
         <div class="content_for_bussines">
             <form data-toggle="validator" role="form" class="form-horizontal form" id="formBussines" action="#"
                   method="post">
-                <span class="heading">Bussines</span>
-                <div class="form-group">
-                    <input type="text" class="form-control" id="inputFirstName" name="FirstName"
-                           placeholder="First Name"
-                           required="required">
-                    <div class="fullName with-errors"></div>
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" id="inputLastName" name="LastName"
-                           placeholder="First Name"
-                           required="required">
-                    <div class="fullName with-errors"></div>
-                </div>
+                <span class="heading">Business</span>
                 <div class="form-group">
                     <input type="text" id="zipCode" class="form-control" name="phone"
                            onkeyup="javascript:mask('zipCode', '+38(000)000-00-00', event);"
@@ -171,25 +167,15 @@
                 <p class="policy">By sending this form I confirm that I have read and accept Intellectsoft <a
                         href="#">Privacy
                     Policy</a></p>
+                <a name="startap"></a>
             </form>
         </div>
         <div class="content_for_startap">
 
             <form data-toggle="validator" role="form" class="form-horizontal form" id="formStartap" action="#"
                   method="post">
-
-                <span class="heading">Startaper</span>
-                <div class="form-group">
-                    <input type="text" class="form-control" id="inputFirst" name="FirstName"
-                           placeholder="First Name"
-                           required="required">
-                    <div class="fullName with-errors"></div>
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" id="inputLast" name="LastName" placeholder="Last Name"
-                           required="required">
-                    <div class="fullName with-errors"></div>
-                </div>
+                <h2></h2>
+                <span class="heading">Start-up</span>
                 <div class="form-group">
                     <input type="text" id="zipCod" class="form-control" name="phone"
                            onkeyup="javascript:mask('zipCode', '+38(000)000-00-00', event);"
@@ -226,55 +212,6 @@
                     <div class="description with-errors"></div>
                 </div>
                 <div class="form-group" style="margin-right: auto;margin-left: auto;">
-                    <textarea name="solution" id="solution" class="form-control" rows="9" cols="25"
-                              style="min-height: 90px;" placeholder="Solution"
-                              required="required"></textarea>
-                    <div class="description with-errors"></div>
-                </div>
-                <div class="form-group" style="margin-right: auto;margin-left: auto;">
-                    <textarea name="model" id="model" class="form-control" rows="9" cols="25"
-                              style="min-height: 90px;" placeholder="Business model"
-                              required="required"></textarea>
-                    <div class="description with-errors"></div>
-                </div>
-                <div class="form-group" style="margin-right: auto;margin-left: auto;">
-                    <textarea name="Customer Segments" id="segments" class="form-control" rows="9" cols="25"
-                              style="min-height: 90px;" placeholder="Customer segments"
-                              required="required"></textarea>
-                    <div class="description with-errors"></div>
-                </div>
-                <div class="form-group" style="margin-right: auto;margin-left: auto;">
-                    <textarea name="Key metrics" id="key" class="form-control" rows="9" cols="25"
-                              style="min-height: 90px;" placeholder="Key metrics"
-                              required="required"></textarea>
-                    <div class="description with-errors"></div>
-                </div>
-                <div class="form-group" style="margin-right: auto;margin-left: auto;">
-                    <textarea name="channel" id="channel" class="form-control" rows="9" cols="25"
-                              style="min-height: 90px;" placeholder="Channel(path to customer)"
-                              required="required"></textarea>
-                    <div class="description with-errors"></div>
-                </div>
-                <div class="form-group" style="margin-right: auto;margin-left: auto;">
-                    <textarea name="structure" id="structure" class="form-control" rows="9" cols="25"
-                              style="min-height: 90px;" placeholder="Cost structure"
-                              required="required"></textarea>
-                    <div class="description with-errors"></div>
-                </div>
-                <div class="form-group" style="margin-right: auto;margin-left: auto;">
-                    <textarea name="revenue" id="revenue" class="form-control" rows="9" cols="25"
-                              style="min-height: 90px;" placeholder="Revenue Stream"
-                              required="required"></textarea>
-                    <div class="description with-errors"></div>
-                </div>
-                <div class="form-group" style="margin-right: auto;margin-left: auto;">
-                    <textarea name="team" id="team" class="form-control" rows="9" cols="25"
-                              style="min-height: 90px;" placeholder="Team description"
-                              required="required"></textarea>
-                    <div class="description with-errors"></div>
-                </div>
-
-                <div class="form-group" style="margin-right: auto;margin-left: auto;">
                     <label for="file-input" class="control-label text-align-center">Attach file</label>
                     <input id="file-inpu" type="file" name="uploadingFiles" multiple>
                 </div>
@@ -285,42 +222,51 @@
                 <p class="policy">By sending this form I confirm that I have read and accept Intellectsoft <a
                         href="#">Privacy
                     Policy</a></p>
+                <p><u>By sending this form I confirm that I have read and accept Success Develop conditions Time for Thank you!</u></p>
             </form>
         </div>
     </div>
 </div>
-        <!-- Bootstrap core JavaScript -->
-        <script src="vendor/jquery/jquery.min.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<footer class="page-footer font-small cyan darken-3">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019 Success Develop:
+        <a href="#" style="color: #ca6c08"> Development on Hack-A-Train</a>
+    </div>
+    <!-- Copyright -->
 
-        <!-- Menu Toggle Script -->
-        <script>
-            function chg(id) {
-                var el = document.getElementById(id);
-                if (el.src.indexOf("img/iconfinder_menu_2613915.svg") > 0) {
-                    el.src = "img/iconfinder_v-11_3162629.svg"
-                    el.style = "transform: scale3d(0.6,0.6,0.6); filter: invert(1);";
-                } else {
-                    el.src = "img/iconfinder_menu_2613915.svg"
-                    el.style = "transform: scale3d(1,1,1);  filter: invert(1);";
-                }
-            }
+</footer>
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-            $("#menu-toggle").click(function (e) {
-                e.preventDefault();
-                $("#wrapper").toggleClass("toggled");
-            });
-            $(".bussines").click(function (e) {
-                e.preventDefault();
-                $("#formStartap").removeClass("active");
-                $("#formBussines").toggleClass("active");
-            })
-            $(".startap").click(function (e) {
-                e.preventDefault();
-                $("#formBussines").removeClass("active");
-                $("#formStartap").toggleClass("active");
-            })
-        </script>
+<!-- Menu Toggle Script -->
+<script>
+    function chg(id) {
+        var el = document.getElementById(id);
+        if (el.src.indexOf("img/iconfinder_menu_2613915.svg") > 0) {
+            el.src = "img/iconfinder_v-11_3162629.svg"
+            el.style = "transform: scale3d(0.6,0.6,0.6); filter: invert(1);";
+        } else {
+            el.src = "img/iconfinder_menu_2613915.svg"
+            el.style = "transform: scale3d(1,1,1);  filter: invert(1);";
+        }
+    }
+
+    $("#menu-toggle").click(function (e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    $(".bussines").click(function (e) {
+        e.preventDefault();
+        $("#formStartap").removeClass("active");
+        $("#formBussines").toggleClass("active");
+    })
+    $(".startap").click(function (e) {
+        e.preventDefault();
+        $("#formBussines").removeClass("active");
+        $("#formStartap").toggleClass("active");
+    })
+</script>
 
 </body>
 
