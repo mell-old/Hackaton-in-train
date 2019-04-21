@@ -39,14 +39,18 @@ h1.title
     filter: blur(1px);
     margin-left: 20.5rem;
     height: 25rem;
-    width: 40rem;
+    width: 50rem;
     opacity: 0.6;
 }
 .carousel-item > img.ind
 {
+    margin-top: 5em;
     width: 40em;
     height: 20em;
     opacity: 0.6;
+}
+ul.ind > li{
+    font-size: 24px;
 }
 .carousel-caption.tech
 {
@@ -62,26 +66,13 @@ h1.title
         z-index: 0;
         min-height: 42em;
     }
-    .text_content
-    {
-        position: relative;
-        top: 270px;
-        right: 60px;
-    }
-    .text_content_2
-    {
-        position: relative;
-        top: 70px;
-        right: -170px;
-        text-shadow: #ca6c08 10px 10px 15px, #ca6c08 -10px -10px 15px,#ca6c08 -10px 10px 15px,#ca6c08 10px -10px 15px;
-    }
     .pad
     {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 45px;
+        padding-bottom: 45px;
         position: absolute;
-        left: 100px;
-        right: 100px;
+        left: 115px;
+        right: 115px;
         background-color: #1b1e21bb;
         border-radius: 300px;
     }
@@ -111,7 +102,7 @@ p{
 }
 a > span > img
 {
-    filter: invert(1);
+    filter: invert(0);
 }
 
 .image-hover:hover
