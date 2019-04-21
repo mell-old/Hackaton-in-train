@@ -180,16 +180,16 @@ img.image-hover:hover{
 }
 .img-text
 {
-    font-size: 18px;
+
     font-weight: bold;
     border-radius: 25px;
     background-color: #000000cc;
     width: 500px;
     position: absolute;
-    top: 420px;
+    top: 385px;
     left: 125px;
 }
-a:hover
+a.hov:hover
 {
     text-decoration: none;
 }
