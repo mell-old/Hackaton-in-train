@@ -21,7 +21,7 @@ body
 }
 h1.Title
 {
-    font-size: 70px;
+    font-size: 140px;
 }
 h2.Title
 {
@@ -31,6 +31,10 @@ h1.title
 {
     margin: 40px;
     font-weight: bold;
+}
+.talant {
+    font-size: 32px;
+    color: #ca6c08;
 }
 .bg{
     position: absolute;
@@ -87,6 +91,49 @@ ul.ind > li{
     .padd
     {
         margin-top: 280px;
+    }
+}
+@media (min-width: 1600px) {
+    .blocks
+    {
+        position: relative;
+        z-index: 0;
+        min-height: 55em;
+    }
+    .pad
+    {
+        padding-top: 90px;
+        padding-bottom: 90px;
+        position: absolute;
+        top: -35px;
+        left: 150px;
+        right: 150px;
+        background-color: #1b1e21bb;
+        border-radius: 300px;
+    }
+    .padd
+    {
+        margin-top: 380px;
+    }
+    .carousel-item > img.tech
+    {
+        margin-left: 19rem;
+        height: 35rem;
+        width: 80rem;
+        opacity: 0.6;
+    }
+    .carousel-item > img.ind
+    {
+        margin-top: 0px;
+        width: 60em;
+        height: 35em;
+        opacity: 1;
+    }
+    .content
+    {
+        font-size: 24px;
+        width: 650px;
+        color: #ca6c08;
     }
 }
 
