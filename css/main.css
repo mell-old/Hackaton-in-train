@@ -36,6 +36,10 @@ h1.title
     font-size: 32px;
     color: #ca6c08;
 }
+.coll{
+     background-color: #ffffff22;
+    border-radius: 25px;
+}
 .bg{
     position: absolute;
     top: 0;
@@ -239,6 +243,10 @@ img.image-hover:hover{
 a.hov:hover
 {
     text-decoration: none;
+}
+.opp
+{
+    opacity: 0.5;
 }
 /*======Call Button======*/
 .call_button
