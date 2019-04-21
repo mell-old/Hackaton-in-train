@@ -56,9 +56,8 @@ h1.title
 }
 .carousel-item > img.ind
 {
-    margin-top: 5em;
     width: 45em;
-    height: 20em;
+    height: 30em;
     opacity: 1;
 }
 ul.ind > li{
@@ -130,7 +129,7 @@ ul.ind > li{
     {
         margin-top: 0px;
         width: 60em;
-        height: 35em;
+        height: 40em;
         opacity: 1;
     }
     .content
